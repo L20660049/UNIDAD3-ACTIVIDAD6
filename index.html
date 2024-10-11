@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- Define el tipo de documento como HTML5 -->
+<html lang="es">
+<!-- Especifica que el contenido de la página está en español -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Define la codificación de caracteres como UTF-8, lo que permite mostrar caracteres especiales correctamente -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ajusta el ancho de la página para que sea adecuado en dispositivos móviles, estableciendo el zoom inicial en 1.0 -->
+    
+    <title>Cambiar Imagen</title>
+    <!-- Define el título que aparecerá en la pestaña del navegador -->
+    
+    <link rel="stylesheet" href="styles.css">
+    <!-- Vincula un archivo CSS externo para aplicar estilos a esta página -->
+</head>
+
+<body>
+    <!-- Cuerpo de la página web -->
+
+    <img id="imagen" src="imagen1.jpg" alt="Imagen 1" width="300">
+    <!-- Etiqueta para mostrar una imagen. El atributo "id" se usará para cambiar la imagen dinámicamente mediante JavaScript -->
+    <!-- "src" es la fuente de la imagen que se muestra inicialmente -->
+    <!-- "alt" proporciona un texto alternativo si la imagen no puede cargarse -->
+    <!-- "width" establece el ancho de la imagen en 300 píxeles -->
+
+    <br><br>
+    <!-- Saltos de línea para añadir espacio antes del botón -->
+
+    <button onclick="cambiarImagen()">Cambiar Imagen</button>
+    <!-- Botón que, al hacer clic, ejecutará la función de JavaScript "cambiarImagen()" para modificar la imagen mostrada -->
+
+    <script src="script.js"></script>
+    <!-- Vincula un archivo JavaScript externo que contendrá el código para la funcionalidad de cambio de imagen -->
+</body>
+
+</html>
